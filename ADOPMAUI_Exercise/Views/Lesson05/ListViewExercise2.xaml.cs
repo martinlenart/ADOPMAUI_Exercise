@@ -13,6 +13,14 @@ namespace ADOPMAUI_Exercise.Views.Lesson05
             ImageList.ItemsSource = CityPicture.List;
         }
 
+        protected override void OnNavigatedTo(NavigatedToEventArgs args)
+        {
+            base.OnNavigatedTo(args);
+
+            //Routing of this page
+            Title += $"   ({Shell.Current.CurrentState.Location.ToString()})";
+        }
+
         private async void ImageList_ItemTapped(object sender, ItemTappedEventArgs e)
         {
             CityPicture item = (CityPicture)e.Item;

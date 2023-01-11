@@ -4,35 +4,20 @@
              x:Class="ADOPMAUI_Exercise.Views.Lesson02.BindingExercise1"
              Title="BindingExercise1">
     <StackLayout Padding="10, 0">
-        <Label Text="Label with basic binding in XAML"
-               FontSize="30"
-               HorizontalOptions="Center"
-               VerticalOptions="CenterAndExpand" />
-
-        <Slider x:Name="slider1a"
-                Maximum="360"
-                VerticalOptions="CenterAndExpand" />
-        <Slider x:Name="slider1b"
-                Maximum="1"
-                VerticalOptions="CenterAndExpand" Value="0.5"/>
-        <Slider x:Name="slider1c"
-                Maximum="1"
-                VerticalOptions="CenterAndExpand" Value="0.5" />
-
-        <Label x:Name="label2" Text="Label with basic binding in C#"
-               FontSize="30"
-               HorizontalOptions="Center"
-               VerticalOptions="CenterAndExpand"/>
-
-        <Slider x:Name="slider2a"
-                Maximum="360"
-                VerticalOptions="CenterAndExpand" />
-        <Slider x:Name="slider2b"
-                Maximum="1"
-                VerticalOptions="CenterAndExpand" Value="0.5"/>
-        <Slider x:Name="slider2c"
-                Maximum="1"
-                VerticalOptions="CenterAndExpand" Value="0.5" />
-
+        <Border Margin="5" Padding="20" Stroke="#C49B33" StrokeThickness="4" >
+            <StackLayout Orientation="Horizontal">
+                <StackLayout HeightRequest="300" WidthRequest="300">
+                    <BoxView Color="Blue" 
+                          Rotation= "0"
+                          HeightRequest= "100"
+                          WidthRequest= "100"/>
+                </StackLayout>
+                <StackLayout Orientation="Vertical" Padding="20">
+                    <Slider x:Name="slWidth" WidthRequest="200" Minimum="50" Maximum="300"></Slider>
+                    <Slider x:Name="slHeight" WidthRequest="200" Minimum="50" Maximum="300"></Slider>
+                    <Slider x:Name="slRotation" WidthRequest="200" Minimum="0" Maximum="360"></Slider>
+                </StackLayout>
+            </StackLayout>
+        </Border>
     </StackLayout>
 </ContentPage>
