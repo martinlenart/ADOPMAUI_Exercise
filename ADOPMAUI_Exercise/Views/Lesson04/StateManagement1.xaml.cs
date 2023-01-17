@@ -9,7 +9,6 @@ namespace ADOPMAUI_Exercise.Views.Lesson04
 {
     public partial class StateManagement1 : ContentPage
     {
-        public List<Friend> myFriends { get; set; }
         public StateManagement1()
         {
             InitializeComponent();
@@ -17,7 +16,6 @@ namespace ADOPMAUI_Exercise.Views.Lesson04
             var startMessage = Global.Data.Message;
             var startTime = Global.Data.Time;
 
-            myFriends = Global.Data.myBlueFriends;
             BindingContext= this;
         }
     }

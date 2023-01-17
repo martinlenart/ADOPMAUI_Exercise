@@ -18,8 +18,6 @@ public partial class App : Application
         Global.Data.Message = "Application Started";
         Global.Data.Time = DateTime.Now;
 
-        Global.Data.myBlueFriends = Friend.Factory.CreateRandom(500).Where(f => f.FavoriteColor.FriendlyName.Contains("Blue")).ToList();
-
         //Exercise in Global add
         //a.	list of friends who’s favorite color contains the word “Blue”
         //b.	list of cities in Africa

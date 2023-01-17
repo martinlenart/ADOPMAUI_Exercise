@@ -17,8 +17,6 @@ namespace ADOPMAUI_Exercise.Globals
         public string Message { get; set; }
         public DateTime Time { get; set; }
 
-        public List<Friend> myBlueFriends { get; set; }
-
         //Exercise:
         // Add properties so Global.Data contain a list of Friend,
         // a list of City, and a list on NamedColor
