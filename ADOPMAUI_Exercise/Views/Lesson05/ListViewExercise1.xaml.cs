@@ -23,11 +23,9 @@ namespace ADOPMAUI_Exercise.Views.Lesson05
 
         private async void Button_Clicked(object sender, EventArgs e)
         {
-            await Shell.Current.GoToAsync("//lesson5/listviewexercise2");
         }
         private async void Button_Clicked_1(object sender, EventArgs e)
         {
-            await Shell.Current.GoToAsync("..");
         }
     }
 }
