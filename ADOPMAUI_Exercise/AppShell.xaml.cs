@@ -17,21 +17,16 @@ public partial class AppShell : Shell
         foreach (var item in NewsPapers)
         {
             //Create a Tab, set its relevant properties
-            aTab = new Tab { Title = item.Name };
+            //Your code
 
             //Create a ShellContent , set its relevant properties
-            var sc = new ShellContent
-            {
-                Title = item.Name,
-                Route = item.Name.ToLower(),
-                ContentTemplate = new DataTemplate(() => new WebViewExplore(item))
-            };
+            //Your code
+
             //Add the ShellContent into the Tab
-            aTab.Items.Add(sc);
+            //Your code
 
             //Add the Tab into lesson5news2 flyout item from the Xaml page
             //Your code
-            lesson5news2.Items.Add(aTab);
         }
     }
 }

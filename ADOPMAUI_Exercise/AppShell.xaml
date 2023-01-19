@@ -33,12 +33,8 @@
     <!-- Exercise ShellMenu: Adding an item to a Shell Menu in Xaml-->
     <!-- Fill in the <ShellContent /> tag
     <ShellContent />
-    -->
-    <ShellContent
-    Title="Lesson 5 News1"
-    ContentTemplate="{DataTemplate views:Lesson05.WebViewExplore}"
-    Route="lesson5news1" />
-    
+    Set the Route to "lesson5news1"
+    -->    
     
     <!-- Exercise ShellMenu: Adding an item to a Shell Menu in C#-->
     <FlyoutItem x:Name="lesson5news2" Title="Lesson 5 News2" Route="lesson5news2">
