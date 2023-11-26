@@ -27,7 +27,7 @@ x:Class="ADOPMAUI_Exercise.Views.Lesson06.NonTrivialBindingExercise4" Title="Gri
                     <StackLayout Grid.Row="1" Grid.Column ="0" Grid.RowSpan="5">
 
                         <!-- Step 2: Set the Binding to show city image -->
-                        <Image Source="" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" 
+                        <Image Source="{Binding ShownCity.ImageSrc}" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" 
                            Aspect="AspectFit"/>
 
                     </StackLayout>
