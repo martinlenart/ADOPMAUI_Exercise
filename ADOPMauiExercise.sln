@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31611.283
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADOPMAUI_Exercise", "ADOPMAUI_Exercise\ADOPMAUI_Exercise.csproj", "{7741D164-CA57-4947-8DF0-85BB4E531E0F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADOPMauiExercise", "ADOPMAUI_Exercise\ADOPMauiExercise.csproj", "{7741D164-CA57-4947-8DF0-85BB4E531E0F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
